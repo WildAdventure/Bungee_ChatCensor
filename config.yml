@@ -1,0 +1,21 @@
+block:
+  full-words: []
+  contains: []
+  regular-expressions: []
+
+warn:
+  full-words: []
+  contains: []
+  regular-expressions: []
+
+replace-before-check:
+- 'à = a'
+- 'è, é = e'
+- 'ç = c'
+- 'ì = i'
+- 'ò = o'
+- 'ù = u'
+- '$ = s'
+
+allowed-domains:
+- wildadventure.it
